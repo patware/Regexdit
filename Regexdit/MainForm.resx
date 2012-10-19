@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="treeNode577.ToolTipText" xml:space="preserve">
+    <value>Matches an ASCII character as octal (up to three digits); numbers with no leading zero are backreferences if they have only one digit or if they correspond to a capturing group number. (For more information, see Backreferences.) For example, the character \040 represents a space.</value>
+  </data>
+  <data name="treeNode598.ToolTipText" xml:space="preserve">
+    <value>Matches any word character. Equivalent to the Unicode character categories[\p{Ll}\p{Lu}\p{Lt}\p{Lo}\p{Nd}\p{Pc}\p{Lm}]. If ECMAScript-compliant behavior is specified with the ECMAScript option, \w is equivalent to [a-zA-Z_0-9].</value>
+  </data>
+  <data name="treeNode599.ToolTipText" xml:space="preserve">
+    <value>Matches any nonword character. Equivalent to the Unicode categories [^\p{Ll}\p{Lu}\p{Lt}\p{Lo}\p{Nd}\p{Pc}\p{Lm}]. If ECMAScript-compliant behavior is specified with the ECMAScript option, \W is equivalent to [^a-zA-Z_0-9].</value>
+  </data>
+  <data name="treeNode600.ToolTipText" xml:space="preserve">
+    <value>Matches any white-space character. Equivalent to the Unicode character categories [\f\n\r\t\v\x85\p{Z}]. If ECMAScript-compliant behavior is specified with the ECMAScript option, \s is equivalent to [ \f\n\r\t\v].</value>
+  </data>
+  <data name="treeNode601.ToolTipText" xml:space="preserve">
+    <value>Matches any non-white-space character. Equivalent to the Unicode character categories [^\f\n\r\t\v\x85\p{Z}]. If ECMAScript-compliant behavior is specified with the ECMAScript option, \S is equivalent to [^ \f\n\r\t\v].</value>
+  </data>
+  <data name="treeNode606.ToolTipText" xml:space="preserve">
+    <value>Specifies that the match must occur at the end of the string, before \n at the end of the string, or at the end of the line. For more information, see the Multiline option in Regular Expression Options</value>
+  </data>
+  <data name="treeNode611.ToolTipText" xml:space="preserve">
+    <value>Specifies that the match must occur on a boundary between \w (alphanumeric) and \W (nonalphanumeric) characters. The match must occur on word boundaries — that is, at the first or last characters in words separated by any nonalphanumeric characters</value>
+  </data>
+  <data name="treeNode626.ToolTipText" xml:space="preserve">
+    <value>Quantifiers add optional quantity data to a regular expression. A quantifier expression applies to the character, group, or character class that immediately precedes it. The .NET Framework regular expressions support minimal matching ("lazy") quantifiers</value>
+  </data>
+  <data name="treeNode627.ToolTipText" xml:space="preserve">
+    <value>Captures the matched substring (or noncapturing group; for more information, see the ExplicitCapture option in Regular Expression Options). Captures using () are numbered automatically based on the order of the opening parenthesis, starting from one. The first capture, capture element number zero, is the text matched by the whole regular expression pattern.</value>
+  </data>
+  <data name="treeNode628.ToolTipText" xml:space="preserve">
+    <value>Captures the matched substring into a group name or number name. The string used for name must not contain any punctuation and it cannot begin with a number. You can use single quotes instead of angle brackets; for example, (?'name').</value>
+  </data>
+  <data name="treeNode629.ToolTipText" xml:space="preserve">
+    <value>Balancing group definition. Deletes the definition of the previously defined group name2 and stores in group name1 the interval between the previously defined name2 group and the current group. If no group name2 is defined, the match backtracks. Because deleting the last definition of name2 reveals the previous definition of name2, this construct allows the stack of captures for group name2 to be used as a counter for keeping track of nested constructs such as parentheses. In this construct, name1 is optional. You can use single quotes instead of angle brackets; for example, (?'name1-name2').</value>
+  </data>
+  <data name="treeNode631.ToolTipText" xml:space="preserve">
+    <value>Applies or disables the specified options within the subexpression. For example, (?i-s: ) turns on case insensitivity and disables single-line mode. For more information, see Regular Expression Options.</value>
+  </data>
+  <data name="treeNode632.ToolTipText" xml:space="preserve">
+    <value>Zero-width positive lookahead assertion. Continues match only if the subexpression matches at this position on the right. For example, \w+(?=\d) matches a word followed by a digit, without matching the digit. This construct does not backtrack</value>
+  </data>
+  <data name="treeNode634.ToolTipText" xml:space="preserve">
+    <value>Zero-width positive lookbehind assertion. Continues match only if the subexpression matches at this position on the left. For example, (?&lt;=19)99 matches instances of 99 that follow 19. This construct does not backtrack.</value>
+  </data>
+  <data name="treeNode636.ToolTipText" xml:space="preserve">
+    <value>Nonbacktracking subexpression (also known as a "greedy" subexpression). The subexpression is fully matched once, and then does not participate piecemeal in backtracking. (That is, the subexpression matches only strings that would be matched by the subexpression alone.)</value>
+  </data>
+  <data name="treeNode639.ToolTipText" xml:space="preserve">
+    <value>Named backreference. For example, (?&lt;char&gt;\w)\k&lt;char&gt; finds doubled word characters. The expression (?&lt;43&gt;\w)\43 does the same. You can use single quotes instead of angle brackets; for example, \k'char'.</value>
+  </data>
+  <data name="treeNode642.ToolTipText" xml:space="preserve">
+    <value>Matches the "yes" part if the expression matches at this point; otherwise, matches the "no" part. The "no" part can be omitted. The expression can be any valid subexpression, but it is turned into a zero-width assertion, so this syntax is equivalent to (?(?=expression)yes|no). Note that if the expression is the name of a named group or a capturing group number, the alternation construct is interpreted as a capture test (described in the next row of this table). To avoid confusion in these cases, you can spell out the inside (?=expression) explicitly.</value>
+  </data>
+  <data name="treeNode643.ToolTipText" xml:space="preserve">
+    <value>Matches the "yes" part if the named capture string has a match; otherwise, matches the "no" part. The "no" part can be omitted. If the given name does not correspond to the name or number of a capturing group used in this expression, the alternation construct is interpreted as an expression test (described in the preceding row of this table).</value>
+  </data>
+  <data name="treeNode645.ToolTipText" xml:space="preserve">
+    <value>Sets or disables options such as case insensitivity to be turned on or off in the middle of a pattern. For information on specific options, see Regular Expression Options. Option changes are effective until the end of the enclosing group. See also the information on the grouping construct (?imnsx-imnsx: ), which is a cleaner form.</value>
+  </data>
+  <data name="treeNode647.ToolTipText" xml:space="preserve">
+    <value>X-mode comment. The comment begins at an unescaped # and continues to the end of the line. (Note that the x option or the RegexOptions.IgnorePatternWhitespace enumerated option must be activated for this kind of comment to be recognized.)</value>
+  </data>
+</root>
